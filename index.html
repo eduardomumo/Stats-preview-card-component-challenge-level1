@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <div class="img-container">
+      <picture>
+        <source class="img-header" media="(min-width: 1024px)" srcset="images/image-header-desktop.jpg">
+        <img class="img-header-mobile" src="images/image-header-mobile.jpg" alt="image-header">
+      </picture>  
+        <span class="background-image"></span>
+    </div>
+    <div class="information-container">
+      <h1>Get <span class="purple-text">insights</span> that help your business grow.</h1>
+      <p class="text-information">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer
+        experience, and overall efficiency.
+      </p>
+      <div class="stats-container">
+        <div>
+          <p class="stats-number">10k+</p>
+          <p class="stats-name">companies</p>
+        </div>
+        <div>
+          <p class="stats-number">314</p>
+          <p class="stats-name">templates</p>
+        </div>
+        <div>
+          <p class="stats-number">12M+</p>
+          <p class="stats-name">queries</p>
+        </div>
+      </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/eduardomumo">EduardoMumo</a>.
+  </div>
+</body>
+</html>
